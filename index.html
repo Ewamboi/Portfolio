@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title> Emmaculate Wamboi</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>  
+<body>
+    <!--hero section start--> 
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">Portfo<span>lio</span></div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class='bx bxs-x-square' id="close-icon" onclick="closemenu()"></i>
+          </ul>
+          <i class='bx bx-menu' id="close-icon"  onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>Emmaculate Wamboi</span>, A Data  <br>Analyst Based<br> in Kenya.</h1>
+        </div>
+      </div>
+    </div>
+    <!--About section start-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+          <img src="images/about (2).png">
+        </div>
+          <div class="about-col-2">
+           <h1 class="sub-title"> About Me</h1>
+           <p>
+            Hello there! I am an experienced data analyst with 4 Years of experience in harnessing the power of data to drive business success.<br>
+            <br>My expertise lies in collecting, analyzing, and interpreting complex data sets, using statistical techniques, data visualization tools, and predictive models to derive valuable insights.<br>
+            <br>Throughout my career, I have collaborated with cross-functional teams to identify trends, develop strategies, and implement 
+            solutions that have resulted in improved operational efficiency, revenue growth, and customer satisfaction.<br> 
+            <br> I'm passionate about using data to solve real-world challenges 
+            and I'm eager to bring my skills and experience to your team.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>HTML & CSS</li>
+                <li>Data Analysis Tools<br>- Excel<br>- Python<br>- SQL<br>- Power BI</li>
+                <li>Google Analytics</li>
+                <li>Attention to Details</li>
+                <li>Strong Statistical Analysis Skills</li>
+                <li>Data Wrangling and Cleaning</li>
+                <li>Communication Skills</li>
+                <li>Microsoft Suite</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Feb 2023 - Apl 2023</span><br>Content Manager at Sasakazi</li>
+                <li><span>Nov 2022 - Dec 2022</span><br>Research and Data Entry at Alternate Doors Consulting</li>
+                <li><span>Jul 2022 - Aug 2022</span><br>Deputy Presiding Officer at Independent Eectoral and Boundaries Commission</li>
+                <li><span>Nov 2021 - Jan 2022</span><br>Customer Support Agent at CCI Kenya</li>
+                <li><span>Nov 2019 - Mar 2020</span><br>Research Assistant at Kenya National Bureau of Statistics</li>
+                <li><span>Jun 2019 - Nov 2019</span><br>Team Lead at Telkom Enterprise</li>
+                <li><span>Aug 2018 - May 2019</span><br>Sales and Marketing Representative at Safaricom PLC</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Jul 2022 - Nov 2022</span><br>Data Analytics Nanodegree at Udacity</li>
+                <li><span>May 2021 - Jul 2021</span><br>Google Data Analytics at Coursera</li>
+                <li><span>Sep 2014 - Nov 2018</span><br>Bsc in Statistics And Programming at Machakos University</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!----Portfolio---->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+         <div class="work">
+          <img src="images/Dog.jpg">
+          <div class="layer">
+            <h3>WeRateDogs Twitter Account</h3>
+            <p>This is an analysis of a Twitter account that is dedicated in rating dogs</p>
+            <a href="https://github.com/Ewamboi/We-Rate-Dogs-Twitter-Archive-Data-Wrangling"><i class='bx bx-link-external'></i></a>
+          </div>
+         </div>
+         <div class="work">
+          <img src="images/movie.png">
+          <div class="layer">
+            <h3>TMBD Movie Data Analysis</h3>
+            <p>The project was based on investigating the TMBD movie which is a popular database for movies and Tv shows.</p>
+            <a href="https://github.com/Ewamboi/TMBD-Movie-Data-Analysis"><i class='bx bx-link-external'></i></a>
+          </div>
+         </div>
+         <div class="work">
+          <img src="images/bike.png">
+          <div class="layer">
+            <h3>Ford GoBike for the year 2019</h3>
+            <p>The dataset consisted of Ford Gobikes ride of the month of february.</p>
+            <a href="https://github.com/Ewamboi/Ford-GoBike-System-Data-Visualization"><i class='bx bx-link-external'></i></a>
+          </div>
+         </div>
+        </div>
+        <a href="" class="btn">See More</a>
+      </div>
+    </div>
+    <!-----contact----->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class='bx bx-paper-plane'></i>emmaculatewamboi@outlook.com</p>
+            <p><i class='bx bx-phone'></i>+254732288101</p>
+            <div class="Social-icons">
+              <a href="https://twitter.com/wamboi8"><i class='bx bxl-twitter'></i></a>
+              <a href="https://www.linkedin.com/in/emmaculate/"><i class='bx bxl-linkedin-square'></i></a>
+              <a href="https://github.com/Ewamboi"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="images/Emma.CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Emmaculate. Made <i class='bx bx-heart'></i> it</p>
+      </div>
+    </div>
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+           for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+        }
+           for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+        }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>  
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw58KnRqDeUTpBg-YjpMiGZMh4Bs689PS8gYHCtYUqmW_UQ0yukvcz2BUvbdGBP89g2ag/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
