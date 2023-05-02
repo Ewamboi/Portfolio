@@ -96,6 +96,7 @@ nav ul li a:hover::after{
 }
 .about-col-2{
   flex-basis: 60%;
+  font-weight: 500;
 }
 .sub-title{
   font-size: 50px;
@@ -346,6 +347,7 @@ nav.bx {
 }
 .about-col-2{
   font-size: 1.1rem;
+  font-weight: 500;
 }
 .tab-links{
   font-size: 18px;
