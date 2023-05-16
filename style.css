@@ -220,15 +220,13 @@ nav ul li a:hover::after{
   text-decoration: none;
   color: white;
   transition: background 0.5s;
-  margin-bottom: 0;
 }
 .btn:hover{
   background: #0ef;
 }
 #dashboard {
-  padding: 60px 0;
+  padding-bottom: 60px;
   background: black;
-  margin-top: 0;
 }
 .projects-list{
   display: grid;
